@@ -1,9 +1,40 @@
 body {
     font-family: arial;
-    background-color: rgb(185,179,175);
+    background-color: #f6f2cf;
 }
+    header {
+        font-family: "Courier New", Courier, monospace;
+        nav {
+            border-style: solid;
+            li {
+                display: inline;
+                border-style:solid;
+                border-radius: 50px;
+                padding: 10px;
+                margin: 10px
+            }
+        }
+    }
     h1 {
         color: rgb(255,255,255);
         text-decoration: underline;
         font-family:'Times New Roman', Times, serif;
+    }
+    div {
+        h2 {
+            text-align: center;
+        }
+        p {
+            border-width: 2px;
+            border-style: solid;
+            border-color: #e68a7b;
+            border-radius: 25px;
+            width: 40%;
+            padding: 10px;
+            margin: 5%
+        }
+        ul {
+            width: 500px
+        }
+        
     }
